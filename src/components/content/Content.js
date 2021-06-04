@@ -5,7 +5,7 @@ import './Content.css';
 
 const Content = ()=>{
     return (
-        <div className='d-inline'>
+        <div className=''>
             <div className='ml-5 mr-5 '>
                     <Card.Body>
                     <Card.Img style={{ width: '18rem' }} variant="top" src="holder.js/100px180?text=Image cap" />
@@ -17,7 +17,7 @@ const Content = ()=>{
                     </Card.Body>
             </div>
 
-            <div className='blue-gradient color-block-5 mb-3 mx-auto z-depth-1'></div>
+            {/* <div className='blue-gradient color-block-5 mb-3 mx-auto z-depth-3'></div> */}
         </div>
     )
 }

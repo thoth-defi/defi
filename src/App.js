@@ -3,17 +3,29 @@ import './App.css';
 
 import Navbar from './components/navbar/Navbar'
 import Content from './components/content/Content'
+import Slide from './components/slide/Slide'
+import VerticalSlider from './components/roadmap/Roadmap'
+import Footer from './components/footer/footer'
 
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <Navbar />
-      <div className = 'mt-5'>
-        <Content/>
+      <div className='mb-5'>
+          <Content/>
       </div>
-      {/* <p style = {{background: 'rgba(69,79,113,0.9)', height: '100vh',width: '50vw', "border-radius": '5px'}}> side bar</p> */}
+      <div className='mt-5'>
+        <Slide/>
+      </div>
+      <div className='mt-5'>
+        <VerticalSlider/>
+      </div>
+      <div className='mt-5'>
+        <Footer />
+      </div>
     </div>
+    
   );
 }
 
