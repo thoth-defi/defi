@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel,} from 'react-bootstrap';
 import bg from './bg.jpg';
-import img1 from './img1.jpg';
+// import img1 from './img1.jpg';
 
 
 
@@ -24,7 +24,7 @@ const Slide = () => {
             <Carousel.Item>
                 <img
                     className="d-inline w-2"
-                    src={img1}
+                    src={""}
                     alt="Second slide"
                 />
 
